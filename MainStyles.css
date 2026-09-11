@@ -1,0 +1,75 @@
+container{
+			height:822px;
+			width:1366px;
+			margin:auto;
+			background: rgb(35,33,98);
+			background: linear-gradient(90deg, rgba(35,33,98,1) 0%, rgba(1,37,62,1) 52%, rgba(0,89,169,1) 100%);
+			font-family: 'Orbitron';
+    } 
+  
+		#header{
+			height:300px;
+			width:100%;
+		}
+		#Logo{
+			position: relative;
+			left:520px;
+			top:25px;
+		}
+		#Logo img:hover{
+			transform:scale(1.2);
+		}
+		#header ul{
+			list-style-type: none;
+			margin:auto;
+		}
+		#Page1 a{
+			display:inline-block;
+			position:relative;
+			left:171px;
+			bottom:57px;
+			padding:20px;
+			margin:auto;
+			text-decoration: none;
+			font-size:36px;
+		}
+		#Page1 a:hover{
+			transform:scale(1.2);
+		}
+		#Page2 a{
+			display:inline-block;
+			position:relative;
+			left:850px;
+			bottom:140px;
+			padding:20px;
+			margin:auto;
+			text-decoration: none;
+			font-size:36px;
+		}
+		#Page2 a:hover{
+			transform:scale(1.2);
+		}
+		a:visited{
+			color:white;
+		}
+		a:link{
+			color:white;
+		}
+		
+		body{
+		  margin:0;
+		}
+		
+		#footer{
+			width:1600px;
+			height:100px;
+			top:300px;
+		}
+		#copyright b{
+			margin:auto;
+			position:relative;
+			left:615px;
+			top:330px;
+			color:white;
+			font-size:26px;
+	   }
