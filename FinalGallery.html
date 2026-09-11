@@ -1,0 +1,352 @@
+<!doctype html>
+<html>
+<head>
+<title>Gallery</title>
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+	<link href="MainStyles.css" rel="stylesheet">
+	<style>
+		#container{
+			height:980px;
+			width:1920px;
+			margin:auto;
+			background: rgb(35,33,98);
+			background: linear-gradient(90deg, rgba(35,33,98,1) 0%, rgba(1,37,62,1) 52%, rgba(0,89,169,1) 100%);
+			font-family: 'Orbitron';
+			overflow: auto;
+		}
+		#header{
+			height:300px;
+			width:100%;
+			position: center;
+		}
+		body{
+		  margin:0;
+		  overflow:auto;
+		}
+		#Logo{
+			position: relative;
+			left:700px;
+			top:25px;
+		}
+		#Logo img:hover{
+			transform:scale(1.2);
+		}
+		#header ul{
+			list-style-type: none;
+			margin:auto;
+		}
+		#Page1 a{
+			display:inline-block;
+			position:relative;
+			left:400px;
+			bottom:57px;
+			padding:20px;
+			margin:auto;
+			text-decoration: none;
+			font-size:36px;
+		}
+		#Page1 a:hover{
+			transform:scale(1.2);
+		}
+		#Page2 a{
+			display:inline-block;
+			position:relative;
+			left:1000px;
+			bottom:140px;
+			padding:20px;
+			margin:auto;
+			text-decoration: none;
+			font-size:36px;
+		}
+		#Page2 a:hover{
+			transform:scale(1.2);
+		}
+		a:visited{
+			color:white;
+		}
+		a:link{
+			color:white;
+		}
+	@media screen and (max-width:375px){
+	 #container{
+	    width:375px;
+	    height:825px;
+	    margin:auto;
+	    overflow:scroll;
+	  }
+	    
+	 #Logo{
+	   width:20px;
+	   height:20px;
+	   left:86px;
+	   top:48px;
+	    }
+	 #Logo img{
+	   width:200px;
+	 }
+	 
+	 #Page1 a{
+	   top:165px;
+	   left:-10px;
+	   font-size:20px;
+	   }
+	    
+	 #Page2 a{
+	   left:155px;
+	   top:100px;
+	   font-size: 20px;
+	  }
+	    
+	 #copyright b{
+	   top:130px;
+	   left:120px;
+	   font-size:20px;
+	  }
+	  
+  }
+		/* #GraphicDesign .imgHolder{
+			width:200px;
+			height:300px;
+			float:left;
+			margin-left:110px;
+			margin-top:25px;
+		}	
+		#GraphicDesign .thumbnailIMG{
+		width:175px;
+		height:225px;
+		margin:auto;
+		position:relative;
+		top:10px;
+		}
+		#GraphicDesign .textHolder{
+		text-align:center;
+			color:white;
+		}
+		#GraphicDesign b{
+			font-size:24px;
+			color:white;
+			position:relative;
+			right:375px;
+			bottom:20px;
+			margin:auto;
+		}
+		#GraphicDesign{
+			position: relative;
+			width:fit-content;
+			height:fit-content;
+		} */
+		#WebDesign .thumbnailIMG{
+		width:300px;
+		height:300px;
+		margin:auto;
+		position:relative;
+		top:10px;
+		}
+		#WebDesign .textHolder{
+		text-align:center;
+			color:white;
+			position: relative;
+			left:200px;
+			top:250px;
+		}
+		#WebDesign b{
+			font-size:24px;
+			color:white;
+			position:relative;
+			left:215px;
+			bottom:20px;
+			margin:auto;
+		}
+		#WebDesign{
+			position: relative;
+			width:186px;
+			height:380px;
+			left:550px;
+			top:160px;
+		}
+		/*
+		#PubDesign .thumbnailIMG{
+			width:175px;
+			height:225px;
+			margin:auto;
+			position:relative;
+			top:10px;
+			left:200px;
+		}
+		
+		#PubDesign .textHolder{
+		text-align:center;
+			color:white;
+			position:relative;
+			left:300px;
+		}
+		#PubDesign b{
+			font-size:24px;
+			color:white;
+			position:relative;
+			left:500px;
+			bottom:20px;
+			margin:auto;
+		}
+		#PubDesign{
+			position: relative;
+			width:635px;
+			height:256px;
+			top:620px;
+			left:15px;
+		} */  
+		#GameDesign .thumbnailIMG{
+			width:175px;
+			height:225px;
+			margin:auto;
+			position:relative;
+			top:10px;
+			right:300px;
+		}
+		#GameDesign .textHolder{
+			text-align:center;
+			color:white;
+			position:relative;
+			right:115px;
+			top:125px;
+		}
+		#GameDesign b{
+			font-size:24px;
+			color:white;
+			position:relative;
+			left:115px;
+			bottom:20px;
+			margin:auto;
+		}
+		#GameDesign{
+			position: relative;
+			width:635px;
+			height:256px;
+			top:790px;
+			left:600px;
+		}
+		#footer{
+			width:1600px;
+			height:100px;
+			position:relative;
+			top:1364px;
+		}
+		#copyright b{
+			margin:auto;
+			position:relative;
+			left:600px;
+			bottom:305px;
+			color:white;
+			font-size:48px;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<div id="container">
+		<div id="header">
+			<div id="Logo">
+				<a href="/index.html"><img src="Asset 1.png"
+				width="300px"									 
+				/></a>
+			</div>
+			<div id="Page1">
+				<ul>
+					<a href="/FinalGallery.html"><li><b>Gallery</b></li></a>
+				</ul>
+			</div>
+			<div id="Page2">
+				<ul>
+					<a href="/ContactMe.html"<li><b>Contact Me</b></li></a>
+				</ul>
+			</div>
+		</div>
+		<div id="content">
+			 <!-- <div id="GraphicDesign">
+				<b>Graphic Design</b>
+			<div class="imgHolder">
+			<div class="thumbnailIMG">
+			<a href="https://cdn.static.run/5b4556f2-54ec-49c0-ab58-50e3a6de82a1/Images/NostlagiaCola.png"><img src="../Images/NostlagiaCola.png"
+										width="200px"></a>
+			</div>
+			<div class="textHolder">
+			<p>Nostalgia Cola</p>
+			</div>
+			</div>
+			<div class="imgHolder">
+			<div class="thumbnailIMG">
+			<a href="https://cdn.static.run/5b4556f2-54ec-49c0-ab58-50e3a6de82a1/Images/BTTF.png"><img src="../Images/BTTF.png"
+														width="150px"></a>
+			</div>
+			<div class="textHolder">
+			<p>Saul Bass inspired Back To the Future</p>
+			</div>
+			</div>
+			<div class="imgHolder">
+			<div class="thumbnailIMG">
+			<a href="https://cdn.static.run/5b4556f2-54ec-49c0-ab58-50e3a6de82a1/Images/Artboard%201.png"><img src="../Images/Artboard 1.png"
+																			   width="150px"></a>
+			</div>
+			<div class="textHolder">
+			<p>Dr.Pepper Victorian Trading Card</p>
+			</div>
+			</div>
+			<div class="imgHolder">
+			<div class="thumbnailIMG">
+			<a href="https://cdn.static.run/5b4556f2-54ec-49c0-ab58-50e3a6de82a1/Images/Asset%201.png"><img src="../Images/Asset 1.png"
+						width="300px"></a>
+			</div>
+			<div class="textHolder">
+			<p>My Logo</p>
+			</div>
+			</div>
+			</div> -->
+			
+			<div id="WebDesign">
+				<b>Web Design</b>
+			<div class="imgHolder">
+			<div class="thumbnailIMG">
+			<a href="Midterm_HomePage.html"><img src="Website-0.png"
+										width="600px"></a>
+			</div>
+			<div class="textHolder">
+			<p>Space Time Archives</p>
+			</div>
+			</div>
+			</div>
+			<!-- <div id="PubDesign">
+				<b>Publication Design</b>
+			<div class="imgHolder">
+			<div class="thumbnailIMG">
+			<a href="https://cdn.static.run/5b4556f2-54ec-49c0-ab58-50e3a6de82a1/Images/bookCover.png"><img src="../Images/bookCover.png"
+										width="400px"></a>
+			</div>
+			<div class="textHolder">
+			<p>20,000 Leagues under the sea book cover</p>
+			</div>
+			</div>
+			</div> -->
+			<div id="GameDesign">
+				<b>Game Design</b>
+			<div class="imgHolder">
+			<div class="thumbnailIMG">
+			  <video controls poster="Level-Screenshot.jpg" onended="this.load()" width="600px">
+			    <source src="Forest-WalkthroughFinal.mp4" type="video/mp4">
+		    	Your Browser does not support the video tag
+			  </video>
+			</div>
+			<div class="textHolder">
+			<p>ForestCave</p>
+			</div>
+			</div>
+			</div>
+			</div>
+		<div id="footer">
+			<div id="copyright">
+				<b>Copyright</b>
+			</div>	
+		</div>
+	</div>
+</body>
+</html>
