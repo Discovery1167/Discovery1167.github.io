@@ -1,3 +1,5 @@
+/* Styles to be used by all pages in site */
+
 #container{
 			height:2000px;
 			width:100%;
@@ -70,7 +72,6 @@
 			color:white;
 		}
 		
-		
 		#footer{
 		  position: relative;
 			width:1600px;
@@ -133,7 +134,30 @@
 			text-decoration: none;
 			font-size:36px;
 		}
-		
+#FootNav{
+      position:relative;
+      top:125px;
+    }
+    
+    #Contact{
+      position:relative;
+      top:100px;
+    }
+      
+		#copyright b{
+			position:relative;
+			color:white;
+			font-size:26px;
+	   }  
+	   
+	  #copyright{
+	    position:relative;
+	    left:45%;
+	  }
+
+/* Styles to be used by all pages in site  --End of Section-- */
+
+		/* Styles specific for each page */
 		#BodyText{
 			height:fit-content;
 			width:750px;
@@ -193,75 +217,11 @@
 		  position:relative;
 		  top:125px;
 		  }
-		/*  .slide {
-      float: left;
-      height: 510px;
-      width: 728px;
-		     }
-		  
-		    .slide-wrapper {
-             Calculate the total width on the
-            basis of number of slides 
-             width: calc(728px * 2);
-        
-            Specify the animation with the
-            duration and speed 
-            animation: slide 10s ease infinite;
-           }
-          Set the background color
-        of each of the slides 
-       .slide:nth-child(1) {
-           background: green;
-       }
-      
-       .slide:nth-child(2) {
-          background: pink;
-      }
-      
-            Define the animation 
-        for the slideshow 
-          @keyframes slide {
-      
-          /* Calculate the margin-left for 
-          each of the slides 
-           20% {
-              margin-left: 0px;
-          }
-      
-          40% {
-              margin-left: calc(-728px * 1);
-          }
-      
-          60% {
-              margin-left: calc(-728px * 2);
-          }
-      
-          80% {
-              margin-left: calc(-728px * 3);
-          }
-      }    
-        */
-    #FootNav{
-      position:relative;
-      top:125px;
-    }
-    
-    #Contact{
-      position:relative;
-      top:100px;
-    }
-      
-		#copyright b{
-			position:relative;
-			color:white;
-			font-size:26px;
-	   }  
-	   
-	  #copyright{
-	    position:relative;
-	    left:45%;
-	  }
-	  
+/* Styles specific for each page */
+		
+
+/* Styles for Mobie Devices and Other Screen Sizes */ 
+
   @media screen and (max-width: 320px){
 	    #container{
 	      width:320px;
@@ -346,3 +306,4 @@
 	      top:20px;
 	    }
 	  } 
+/* Styles for Mobie Devices and Other Screen Sizes  ----End of Section---- */ 
