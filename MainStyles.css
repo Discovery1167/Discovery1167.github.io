@@ -157,7 +157,7 @@
 
 /* Styles to be used by all pages in site  --End of Section-- */
 
-		/* Styles specific for each page */
+		/* Styles specific for each page 
 		#BodyText{
 			height:fit-content;
 			width:750px;
@@ -217,6 +217,7 @@
 		  position:relative;
 		  top:125px;
 		  }
+		*/
 /* Styles specific for each page */
 		
 
