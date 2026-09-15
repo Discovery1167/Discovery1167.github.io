@@ -30,6 +30,8 @@
 		}
 		#Logo{
 			position: relative;
+			width:fit-content;
+			height:fit-content;
 			left:775px;
 			top:50px;
 		}
@@ -38,6 +40,10 @@
 		}
 		#Logo a{
 			display:inline-block;
+			position:relative;
+			height:183px;
+			width:300px;
+			
 			}
 		#header ul{
 			list-style-type: none;
