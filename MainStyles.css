@@ -53,6 +53,7 @@
 			position:relative;
 			left:426px;
 			bottom:57px;
+			width:fit-content;
 		}
 		#Page1 a{
 			display:inline-block;
@@ -69,6 +70,7 @@
 			position:relative;
 			left:1110px;
 			bottom:140px;
+			width:fit-content;
 		}
 		#Page2 a{
 			display:inline-block;
