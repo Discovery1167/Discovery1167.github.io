@@ -36,6 +36,9 @@
 		#Logo img:hover{
 			transform:scale(1.2);
 		}
+		#Logo a{
+			display:inline-block;
+			}
 		#header ul{
 			list-style-type: none;
 			margin:auto;
@@ -227,12 +230,12 @@
 /* Styles specific for each page */
 		
 
-/* Styles for Mobie Devices and Other Screen Sizes */ 
+/* Styles for Small Screen Mobile Devices */ 
 
   @media screen and (max-width: 320px){
 	    #container{
-	      width:320px;
-	      height:825px;
+	      width:100vw;
+	      height:100vh;
 	      margin:auto;
 	      overflow-x: hidden;
 	      overflow-y: auto;
