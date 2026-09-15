@@ -1,7 +1,7 @@
 /* Styles to be used by all pages in site */
 
 #container{
-			height:2000px;
+			height:100%;
 			width:100%;
 			margin:auto;
 			background: rgb(35,33,98);
