@@ -39,11 +39,13 @@
 			list-style-type: none;
 			margin:auto;
 		}
-		#Page1 a{
-			display:inline-block;
+		#Page1 {
 			position:relative;
 			left:426px;
 			bottom:57px;
+		}
+		#Page1 a{
+			display:inline-block;
 			padding:20px;
 			margin:auto;
 			text-decoration: none;
@@ -52,11 +54,14 @@
 		#Page1 a:hover{
 			transform:scale(1.2);
 		}
-		#Page2 a{
-			display:inline-block;
+
+		#Page2 {
 			position:relative;
 			left:1110px;
 			bottom:140px;
+		}
+		#Page2 a{
+			display:inline-block;
 			padding:20px;
 			margin:auto;
 			text-decoration: none;
