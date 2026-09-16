@@ -28,17 +28,17 @@
 			height:300px;
 			width:100%;
 		}
-		#Logo{
+		#header #Logo{
 			position: relative;
 			width:fit-content;
 			height:fit-content;
 			left:775px;
 			top:50px;
 		}
-		#Logo img:hover{
+		#header #Logo img:hover{
 			transform:scale(1.2);
 		}
-		#Logo a{
+		#header #Logo a{
 			display:inline-block;
 			position:relative;
 			height:183px;
@@ -49,20 +49,20 @@
 			list-style-type: none;
 			margin:auto;
 		}
-		#Page1 {
+		#header #Page1 {
 			position:relative;
 			left:426px;
 			bottom:57px;
 			width:fit-content;
 		}
-		#Page1 a{
+		#header #Page1 a{
 			display:inline-block;
 			padding:20px;
 			margin:auto;
 			text-decoration: none;
 			font-size:36px;
 		}
-		#Page1 a:hover{
+		 #header #Page1 a:hover{
 			transform:scale(1.2);
 		}
 
