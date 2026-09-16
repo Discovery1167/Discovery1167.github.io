@@ -103,6 +103,9 @@
 		  position: relative;
 		  top:150px;
 		}
+		#footer Logo img:hover{
+			transform:scale(1.2);
+			}
 		
 		#FootNav ul{
 			list-style-type: none;
