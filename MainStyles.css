@@ -35,10 +35,10 @@
 			left:775px;
 			top:50px;
 		}
-		#header #Logo img:hover{
+		 #Logo img:hover{
 			transform:scale(1.2);
 		}
-		#header #Logo a{
+		 #Logo a{
 			display:inline-block;
 			position:relative;
 			height:183px;
@@ -49,20 +49,20 @@
 			list-style-type: none;
 			margin:auto;
 		}
-		#header #Page1 {
+		#Page1 {
 			position:relative;
 			left:426px;
 			bottom:57px;
 			width:fit-content;
 		}
-		#header #Page1 a{
+		 #Page1 a{
 			display:inline-block;
 			padding:20px;
 			margin:auto;
 			text-decoration: none;
 			font-size:36px;
 		}
-		 #header #Page1 a:hover{
+		#Page1 a:hover{
 			transform:scale(1.2);
 		}
 
