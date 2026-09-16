@@ -7,7 +7,7 @@
 			background: rgb(35,33,98);
 			background: linear-gradient(90deg, rgba(35,33,98,1) 0%, rgba(1,37,62,1) 52%, rgba(0,89,169,1) 100%);
 			overflow-x:hidden;
-			overflow-y:scroll;
+			overflow-y:hidden;
 		}
 		
 		html{
