@@ -295,8 +295,7 @@
 		
 		#footer #Logo{
 		  position: relative;
-		  top:150px;
-		  left:50%;
+		  left:6%;
 		}
 		
 		#FootNav ul{
@@ -388,6 +387,6 @@
 	  }
 	  #FeaturedWork .textHolder {
     	left:63%;
-	  }
+	  }		  
 	  /* Styles Used on Home/Landing Page */
 /* Styles for Mobie Devices and Other Screen Sizes  ----End of Section---- */ 
