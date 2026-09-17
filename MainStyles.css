@@ -360,13 +360,19 @@
 
 	 	 /* Styles Used on Home/Landing Page */
 	    #BodyText{
-	      width:fit-content;
+	      width:90vw;
 		  height:fit-content;
-	      left:15px;
+	      left:4px;
 		  font-size:12px;
 	    }
 	  #BodyText b{
 		  left:100px;  
 	  } 
+	  #Showcase{
+		  
+	  }
+	  #FeaturedWork .ThumbnailImg video{
+		width:200px;  
+	  }
 	  /* Styles Used on Home/Landing Page */
 /* Styles for Mobie Devices and Other Screen Sizes  ----End of Section---- */ 
