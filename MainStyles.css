@@ -243,6 +243,7 @@
 /* Styles for Small Screen Mobile Devices */ 
 
   @media only screen and (max-width: 600px){
+	  /* Universal Styles For Whole Site */ 
 	    #container{
 	      width:100vw;
 	      height:100vh;
@@ -278,11 +279,86 @@
 	    #Page2 a{
 	      font-size: 20px;
 	    }
+	  #footer{
+		  position: relative;
+			width:1600px;
+			height:500px;
+			top:350px;
+			left:50px;
+			margin:0;
+			padding:0;
+		}
+		
+		#footer #Logo{
+		  position: relative;
+		  top:150px;
+		  left:50%;
+		}
+		
+		#FootNav ul{
+			list-style-type: none;
+			margin:auto;
+		}
+		
+		#Contact ul{
+		  list-style-type: none;
+			margin:auto;
+		}
+		
+		#Email{
+		  position:relative;
+			left:75%;
+			bottom:90px;
+			padding:20px;
+			width:fit-content;
+		}
+		
+		#Email a{
+		  display:inline-block;
+			margin:auto;
+			text-decoration: none;
+			font-size:36px;
+		}
+		
+		#Email a:hover{
+		  transform:scale(1.2);
+		}
+		
+		#LinkedIn{
+		  position:relative;
+			left:27%;
+			bottom:170px;
+			padding:20px;
+			width:fit-content;
+		}
+		
+		#LinkedIn a:hover {
+		  transform:scale(1.2);
+		}
+		
+		#LinkedIn a{
+		  display:inline-block;
+			margin:auto;
+			text-decoration: none;
+			font-size:36px;
+		}
+#FootNav{
+      position:relative;
+      top:125px;
+    }
+    
+    #Contact{
+      position:relative;
+      top:100px;
+    }
 	    #copyright b{
 	      top:60px;
 	      left:80px;
 	      font-size:20px;
 	    }
+/* Universal Styles Used for Whole site ----End Of Section---- */
+
+	 	 /* Styles Used on Home/Landing Page */
 	    #BodyText{
 	      width:fit-content;
 		  height:fit-content;
@@ -291,7 +367,7 @@
 		  font-size:12px;
 	    }
 	  #BodyText b{
-		  left:40px;
-		  
+		  left:40px;  
 	  } 
+	  /* Styles Used on Home/Landing Page */
 /* Styles for Mobie Devices and Other Screen Sizes  ----End of Section---- */ 
