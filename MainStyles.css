@@ -383,9 +383,11 @@
 		  
 	  #FeaturedWork video{
 		position:relative;
-		right:30px;
-		width:200px;  
-		  
+		left:31%;
+		width:275px;    
+	  }
+	  #FeaturedWork .textHolder {
+    	left:63%;
 	  }
 	  /* Styles Used on Home/Landing Page */
 /* Styles for Mobie Devices and Other Screen Sizes  ----End of Section---- */ 
