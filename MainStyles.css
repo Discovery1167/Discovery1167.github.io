@@ -175,7 +175,7 @@
 
 /* Styles to be used by all pages in site  --End of Section-- */
 
-		/* Styles specific for each page 
+		 /* Styles used on Home/Landing Page */
 		#BodyText{
 			height:fit-content;
 			width:750px;
@@ -236,7 +236,7 @@
 		  top:125px;
 		  }
 		*/
-/* Styles specific for each page */
+/* Styles used for Home/Landing Page ----End Of Section */
 		
 
 /* Styles for Small Screen Mobile Devices */ 
