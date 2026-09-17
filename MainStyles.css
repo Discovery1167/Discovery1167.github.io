@@ -176,7 +176,8 @@
 /* Styles to be used by all pages in site  --End of Section-- */
 
 		 /* Styles used on Home/Landing Page */
-		#BodyText{
+
+		/* #BodyText{
 			height:fit-content;
 			width:750px;
 			position:relative;
@@ -234,7 +235,7 @@
 		#FullGalleryCTA{
 		  position:relative;
 		  top:125px;
-		  }
+		  } */ 
 		
 /* Styles used for Home/Landing Page ----End Of Section */
 		
