@@ -220,6 +220,10 @@
 		  top:100px;
 		  left:200px;
 		}
+		#FeaturedWork video{
+			width:50%;
+		}
+			
 		
 		#FeaturedWork .textHolder{
 		  position:relative;
