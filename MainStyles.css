@@ -362,12 +362,11 @@
 	    #BodyText{
 	      width:fit-content;
 		  height:fit-content;
-	      font-size: 29px;
 	      left:15px;
 		  font-size:12px;
 	    }
 	  #BodyText b{
-		  left:40px;  
+		  left:100px;  
 	  } 
 	  /* Styles Used on Home/Landing Page */
 /* Styles for Mobie Devices and Other Screen Sizes  ----End of Section---- */ 
