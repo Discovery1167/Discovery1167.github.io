@@ -311,12 +311,12 @@
 		  left:2%;
 		}
 	  #footer #Page1{
-		  left:100px;
-		  top:100px;
+		  left:-5%;
+		  bottom:115px;
 	  }
 	  #footer #Page2{
-		  left:100px;
-		  top:100px;
+		  left:85px;
+		  bottom:175px;
 	  }
 		
 		#FootNav ul{
@@ -331,8 +331,8 @@
 		
 		#Email{
 		  position:relative;
-			left:75%;
-			bottom:90px;
+			left:106px;
+			bottom:5px;
 			padding:20px;
 			width:fit-content;
 		}
@@ -341,7 +341,7 @@
 		  display:inline-block;
 			margin:auto;
 			text-decoration: none;
-			font-size:36px;
+			font-size:25px;
 		}
 		
 		#Email a:hover{
@@ -350,8 +350,8 @@
 		
 		#LinkedIn{
 		  position:relative;
-			left:27%;
-			bottom:170px;
+			left:-6%;
+			bottom:75px;
 			padding:20px;
 			width:fit-content;
 		}
@@ -364,7 +364,7 @@
 		  display:inline-block;
 			margin:auto;
 			text-decoration: none;
-			font-size:36px;
+			font-size:25px;
 		}
 #FootNav{
       position:relative;
@@ -375,7 +375,10 @@
       position:relative;
       top:100px;
     }
-	    #copyright b{
+	#copyright{
+		left:-5%;
+	}
+	 #copyright b{
 	      top:60px;
 	      left:80px;
 	      font-size:20px;
