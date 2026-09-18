@@ -266,7 +266,7 @@
 	      height:100vh;
 	      margin:auto;
 	      overflow-x: hidden;
-	      overflow-y: auto;
+	      overflow-y: scroll;
 	    }
 	    
 	    #header #Logo{
