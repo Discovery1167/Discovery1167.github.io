@@ -368,14 +368,15 @@
 		}
 #FootNav{
       position:relative;
-      top:65px;
+      top:15px;
     }
     
     #Contact{
       position:relative;
+		top:-30px;
     }
 	#copyright{
-		bottom:45px;
+		bottom:75px;
 		left:0px;
 	}
 	 #copyright b{
