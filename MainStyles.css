@@ -266,7 +266,6 @@
 	      width:100vw;
 	      min-height:100vh;
 	      margin:auto;
-		  overflow-x:hidden;
 	    }
 	  	#header {
 			position:relative;
