@@ -267,6 +267,7 @@
 	      min-height:100dvh;
 	      margin:auto;
 		  overflow-x:hidden;
+		  overflow-y:scroll;
 	    }
 	  	#header {
 			position:relative;
