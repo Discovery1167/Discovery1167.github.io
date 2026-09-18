@@ -260,7 +260,7 @@
 
 /* Styles for Small Screen Mobile Devices */ 
 
-  @media only screen and (max-width: 320px){
+  @media only screen and (max-width: 600px){
 	  /* Universal Styles For Whole Site */ 
 	    #container{
 	      width:100vw;
