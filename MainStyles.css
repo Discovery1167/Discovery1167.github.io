@@ -264,7 +264,7 @@
 	  /* Universal Styles For Whole Site */ 
 	    #container{
 	      width:100vw;
-	      min-height:100dvh;
+	      height:100%;
 	      margin:auto;
 		  overflow-x:hidden;
 		  overflow-y:scroll;
