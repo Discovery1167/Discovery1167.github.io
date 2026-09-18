@@ -268,6 +268,7 @@
 	      margin:auto;
 		  overflow-x:hidden;
 		  overflow-y:scroll;
+		  -webkit-overflow-scrolling:touch;
 	    }
 	  	#header {
 			position:relative;
