@@ -49,7 +49,7 @@
 			list-style-type: none;
 			margin:auto;
 		}
-		#Page1 {
+		#header #Page1 {
 			position:relative;
 			left:426px;
 			bottom:57px;
@@ -103,6 +103,17 @@
 		  position: relative;
 		  top:150px;
 		  left:50%;
+		}
+
+		#footer #Page1{
+			position:relative;
+			width:fit-content;
+			left:100px;
+		}
+		#footer #Page2{
+			position:relative;
+			width:fit-content;
+			right:100px;
 		}
 		
 		#FootNav ul{
