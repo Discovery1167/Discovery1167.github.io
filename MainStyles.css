@@ -260,20 +260,17 @@
 
 /* Styles for Small Screen Mobile Devices */ 
 
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 320px){
 	  /* Universal Styles For Whole Site */ 
 	    #container{
 	      width:100vw;
 	      min-height:100vh;
 	      margin:auto;
-	      overflow-x: hidden;
 	    }
 	  	#header {
 			position:relative;
 			top:15px;
 		}
-			
-	    
 	    #header #Logo{
 		  postion:relative;
 	      width:20px;
@@ -417,4 +414,4 @@
     	left:63%;
 	  }		  
 	  /* Styles Used on Home/Landing Page */
-/* Styles for Mobie Devices and Other Screen Sizes  ----End of Section---- */ 
+/* Styles for Small Mobie Devices ----End of Section---- */ 
