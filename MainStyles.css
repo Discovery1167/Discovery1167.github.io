@@ -103,7 +103,7 @@
 		#footer #Logo{
 		  position: relative;
 		  top:152px;
-		  left:69%;
+		  left:50%;
 		}
 
 		#footer #Page1{
@@ -115,7 +115,7 @@
 		#footer #Page2{
 			position:relative;
 			width:fit-content;
-			left:69px;
+			left:69%;
 			bottom:152px;
 		}
 		
