@@ -279,7 +279,7 @@
 	    #Logo img{
 	     width:150px;
 	    }
-	  #Page1{
+	  #header #Page1{
 		  top:165px;
 		  left:-20px;
 	  }
@@ -287,7 +287,7 @@
 	    #Page1 a{
 	      font-size:20px;
 	    }
-	  #Page2{
+	 #header #Page2{
 		  left:125px;
 	      top:100px;
 	  }
@@ -310,7 +310,14 @@
 		  position: relative;
 		  left:2%;
 		}
-	  #FootNav #Page 1
+	  #footer #Page1{
+		  left:100px;
+		  top:100px;
+	  }
+	  #footer #Page2{
+		  left:100px;
+		  top:100px;
+	  }
 		
 		#FootNav ul{
 			list-style-type: none;
