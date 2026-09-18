@@ -108,12 +108,14 @@
 		#footer #Page1{
 			position:relative;
 			width:fit-content;
-			left:100px;
+			left:27%;
+			bottom:70px
 		}
 		#footer #Page2{
 			position:relative;
 			width:fit-content;
-			right:100px;
+			left:69px;
+			bottom:152px;
 		}
 		
 		#FootNav ul{
