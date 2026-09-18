@@ -264,8 +264,10 @@
 	  /* Universal Styles For Whole Site */ 
 	    #container{
 	      width:100vw;
-	      min-height:90dvh;
+	      min-height:100dvh;
 	      margin:auto;
+		  overflow-y:hidden;
+		  overflow-x:hidden;
 	    }
 	  	#header {
 			position:relative;
