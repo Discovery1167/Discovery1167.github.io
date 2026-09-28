@@ -291,6 +291,7 @@
 					width:fit-content;
 					height:fit-content;
 					top:100px;
+					left:550px;
 				}
 
 			/* Web Design Section --End of Section */
@@ -497,9 +498,6 @@
 			}
 			#WebDesign .thumbnailIMG{
 				left:55px;
-			}
-			#WebDesign .thumbnailIMG img{
-				width:225px;
 			}
 			#WebDesign .textHolder{
 				left:110px;
