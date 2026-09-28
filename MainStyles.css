@@ -290,7 +290,6 @@
 					position: relative;
 					width:fit-content;
 					height:fit-content;
-					left:550px;
 					top:100px;
 				}
 
@@ -331,7 +330,7 @@
 		
 /* Styles for Small Screen Mobile Devices */ 
 
-  @media only screen and (max-width: 320px){
+@media only screen and (max-width: 320px){
 	  /* Universal Styles For Whole Site  Headers and Footers */ 
 	    #container{
 	      width:100vw;
@@ -494,10 +493,13 @@
 	 /* Styles Used in Gallery */
 		*/ Web Design */
 			#WebDesign b{
-				left:127px;
+				left:90px;
 			}
 			#WebDesign .thumbnailIMG{
 				left:55px;
+			}
+			#WebDesign .thumbnailIMG img{
+				width:225px;
 			}
 			#WebDesign .textHolder{
 				left:110px;
