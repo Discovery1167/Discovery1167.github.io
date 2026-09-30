@@ -329,13 +329,13 @@
 				 
 			/* Game Design Section --End of Section */ 
 			/* Styles Used in Contact Page */		
-				#BodyText1{
+			#BodyText1{
 			position:relative;
 			height:fit-content;
 			width:fit-content;
 			left:35%;
 			top:75px;
-		}	
+			}	
 		#BodyText1 b{
 			font-size:45px;
 			color:white;
@@ -377,7 +377,7 @@
 			font-size:35px;
 			text-align:center;
 		}
-			*/ Contact Page Styles ---End Section---*/
+			/* Contact Page Styles ---End Section---*/
 		
 /* Styles for Small Screen Mobile Devices */ 
 
