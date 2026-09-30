@@ -629,3 +629,252 @@
 	/* Styles Used in Contact Page  ----End of Section----*/
 }		
 /* Styles for Small Mobie Devices ----End of Section---- */ 
+/* Styles For Medium Mobile Devices */
+@media only screen and (max-width: 375px){
+/* Universal Styles For Whole Site  Headers and Footers */ 
+	    #container{
+	      width:100vw;
+	      height:100%;
+	      margin:auto;
+		  overflow-x:hidden;
+		  overflow-y:scroll;
+		  -webkit-overflow-scrolling:touch;
+	    }
+	  	#header {
+			position:relative;
+			top:15px;
+			left:-10px;
+		}
+	    #header #Logo{
+		  postion:relative;
+	      width:20px;
+	      height:20px;
+	      left:90px;
+	      top:50px;
+	    }
+	    #Logo img{
+	     width:150px;
+	    }
+	  #header #Page1{
+		  top:165px;
+		  left:-20px;
+	  }
+	    
+	    #Page1 a{
+	      font-size:20px;
+	    }
+	 #header #Page2{
+		  left:125px;
+	      top:100px;
+	  }
+		  
+	    
+	    #Page2 a{
+	      font-size: 20px;
+	    }
+	  #footer{
+		  position: relative;
+			width:1600px;
+			height:500px;
+			top:30px;
+			left:50px;
+			margin:0;
+			padding:0;
+		}
+		
+		#footer #Logo{
+		  position: relative;
+		  left:2%;
+		}
+	  #footer #Page1{
+		  left:-6%;
+		  bottom:115px;
+	  }
+	  #footer #Page2{
+		  left:70px;
+		  bottom:180px;
+	  }
+		
+		#FootNav ul{
+			list-style-type: none;
+			margin:auto;
+		}
+		
+		#Contact ul{
+		  list-style-type: none;
+			margin:auto;
+		}
+		
+		#Email{
+		  position:relative;
+			left:106px;
+			bottom:5px;
+			padding:20px;
+			width:fit-content;
+		}
+		
+		#Email a{
+		  display:inline-block;
+			margin:auto;
+			text-decoration: none;
+			font-size:25px;
+		}
+		
+		#Email a:hover{
+		  transform:scale(1.2);
+		}
+		
+		#LinkedIn{
+		  position:relative;
+			left:-6%;
+			bottom:75px;
+			padding:20px;
+			width:fit-content;
+		}
+		
+		#LinkedIn a:hover {
+		  transform:scale(1.2);
+		}
+		
+		#LinkedIn a{
+		  display:inline-block;
+			margin:auto;
+			text-decoration: none;
+			font-size:25px;
+		}
+#FootNav{
+      position:relative;
+      top:15px;
+    }
+    
+    #Contact{
+      position:relative;
+		top:-30px;
+    }
+	#copyright{
+		bottom:75px;
+		left:0px;
+	}
+	 #copyright b{
+	      font-size:20px;
+	    }
+/* Universal Styles Used for Whole site ----End Of Section---- */
+
+	 	 /* Styles Used on Home/Landing Page */
+	    #BodyText{
+	      width:90vw;
+		  height:fit-content;
+	      left:5px;
+		  font-size:20px;
+	    }
+	  #BodyText b{
+		  left:60px;  
+	  } 
+	  #Showcase{
+		 left:0px; 
+	  }
+	  #Showcase b{
+		font-size:25px;
+		top:20px;
+		left:50px;
+	  }
+		  
+	  #FeaturedWork video{
+		position:relative;
+		left:31%;
+		width:275px;    
+	  }
+	  #FeaturedWork .textHolder {
+    	left:63%;
+	  }
+	  /* Styles Used on Home/Landing Page ---End Of Section----*/
+
+	 /* Styles Used in Gallery */
+		/* Web Design */
+			#WebDesign{
+				left:0px;
+			}
+			#WebDesign b{
+				left:90px;
+			}
+			#WebDesign .thumbnailIMG{
+				left:55px;
+			}
+			#WebDesign .thumbnailIMG img{
+				width:225px;
+			}
+			#WebDesign .textHolder{
+				left:75px;
+			}
+		/* End Of Web Design */
+		/* Game Design */
+			#GameDesign{
+				left:0px;
+			}
+			#GameDesign b{
+				left:90px;
+			}
+			#GameDesign .thumbnailIMG{
+				right:170px;
+			}
+			#GameDesign .thumbnailIMG video{
+				width:225px;
+			}
+			#GameDesign .textHolder{
+				right:145px;
+				top:-51px;
+			}
+		 /* End Of Game Design */
+	/* Styles Used in Gallery ----End of Section-----*/
+	/* Styles used in Contact Page */
+		#BodyText1{
+			position:relative;
+			height:fit-content;
+			width:fit-content;
+			left:7%;
+			top:15px;
+		}	
+		#BodyText1 b{
+			font-size:22px;
+			color:white;
+			text-align: center;
+		}
+		#ContactInfoEmail{
+			position:relative;
+			height:fit-content;
+			width:fit-content;
+			left:8%;
+			top:50px;
+			}
+		#ContactInfoEmail a{
+			color:white;
+			font-size:17px;
+			text-align:center;
+		}
+		#ContactInfoLinkedIn{
+			position:relative;
+			height:fit-content;
+			width:fit-content;
+			left:35%;
+			top:70px;
+		}
+		#ContactInfoLinkedIn a{
+			color:white;
+			font-size:20px;
+			text-align:center;
+		}
+		#Resume{
+			position:relative;
+			height:fit-content;
+			width:fit-content;
+			left:35%;
+			top:95px;
+		}
+		#Resume a{
+			color:white;
+			font-size:22px;
+			text-align:center;
+		}
+	/* Styles Used in Contact Page  ----End of Section----*/
+}
+/* Styles for Medium Mobile Devices------End Of Section---- */
