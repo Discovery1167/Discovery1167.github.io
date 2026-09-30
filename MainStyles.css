@@ -328,6 +328,56 @@
 				}
 				 
 			/* Game Design Section --End of Section */ 
+			/* Styles Used in Contact Page */		
+				#BodyText1{
+			position:relative;
+			height:fit-content;
+			width:fit-content;
+			left:35%;
+			top:75px;
+		}	
+		#BodyText1 b{
+			font-size:45px;
+			color:white;
+			text-align: center;
+		}
+		#ContactInfoEmail{
+			position:relative;
+			height:fit-content;
+			width:fit-content;
+			left:35%;
+			top:100px;
+			}
+		#ContactInfoEmail a{
+			color:white;
+			font-size:35px;
+			text-align:center;
+		}
+		#ContactInfoLinkedIn{
+			position:relative;
+			height:fit-content;
+			width:fit-content;
+			left:35%;
+			top:125px;
+		}
+		#ContactInfoLinkedIn a{
+			color:white;
+			font-size:35px;
+			text-align:center;
+		}
+		#Resume{
+			position:relative;
+			height:fit-content;
+			width:fit-content;
+			left:35%;
+			top:150px;
+		}
+		#Resume a{
+			color:white;
+			font-size:35px;
+			text-align:center;
+		}
+			*/ Contact Page Styles ---End Section---*/
 		
 /* Styles for Small Screen Mobile Devices */ 
 
@@ -525,5 +575,57 @@
 				right:145px;
 				top:-51px;
 			}
+		 /* End Of Game Design */
+	/* Styles Used in Gallery ----End of Section-----*/
+	/* Styles used in Contact Page */
+		#BodyText1{
+			position:relative;
+			height:fit-content;
+			width:fit-content;
+			left:35%;
+			top:75px;
+		}	
+		#BodyText1 b{
+			font-size:45px;
+			color:white;
+			text-align: center;
+		}
+		#ContactInfoEmail{
+			position:relative;
+			height:fit-content;
+			width:fit-content;
+			left:35%;
+			top:100px;
+			}
+		#ContactInfoEmail a{
+			color:white;
+			font-size:35px;
+			text-align:center;
+		}
+		#ContactInfoLinkedIn{
+			position:relative;
+			height:fit-content;
+			width:fit-content;
+			left:35%;
+			top:125px;
+		}
+		#ContactInfoLinkedIn a{
+			color:white;
+			font-size:35px;
+			text-align:center;
+		}
+		#Resume{
+			position:relative;
+			height:fit-content;
+			width:fit-content;
+			left:35%;
+			top:150px;
+		}
+		#Resume a{
+			color:white;
+			font-size:35px;
+			text-align:center;
+		}
+	/* Styles Used in Contact Page  ----End of Section----*/
 }		
 /* Styles for Small Mobie Devices ----End of Section---- */ 
