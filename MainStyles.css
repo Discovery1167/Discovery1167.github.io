@@ -516,13 +516,14 @@
 				left:90px;
 			}
 			#GameDesign .thumbnailIMG{
-				left:55px;
+				right:170px;
 			}
 			#GameDesign .thumbnailIMG video{
 				width:225px;
 			}
 			#GameDesign .textHolder{
-				left:75px;
+				right:145px;
+				bottom:65px;
 			}
 }		
 /* Styles for Small Mobie Devices ----End of Section---- */ 
