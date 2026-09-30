@@ -493,7 +493,7 @@
 	 /* Styles Used in Gallery */
 		/* Web Design */
 			#WebDesign{
-				left:1px;
+				left:0px;
 			}
 			#WebDesign b{
 				left:90px;
@@ -509,5 +509,20 @@
 			}
 		/* End Of Web Design */
 		/* Game Design */
+			#GameDesign{
+				left:0px;
+			}
+			#GameDesign b{
+				left:90px;
+			}
+			#GameDesign .thumbnailIMG{
+				left:55px;
+			}
+			#GameDesign .thumbnailIMG img{
+				width:225px;
+			}
+			#GameDesign .textHolder{
+				left:110px;
+			}
 }		
 /* Styles for Small Mobie Devices ----End of Section---- */ 
