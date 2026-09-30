@@ -582,8 +582,8 @@
 			position:relative;
 			height:fit-content;
 			width:fit-content;
-			left:35%;
-			top:75px;
+			left:5%;
+			top:15px;
 		}	
 		#BodyText1 b{
 			font-size:45px;
@@ -594,12 +594,12 @@
 			position:relative;
 			height:fit-content;
 			width:fit-content;
-			left:35%;
-			top:100px;
+			left:8%;
+			top:50px;
 			}
 		#ContactInfoEmail a{
 			color:white;
-			font-size:35px;
+			font-size:17px;
 			text-align:center;
 		}
 		#ContactInfoLinkedIn{
@@ -607,11 +607,11 @@
 			height:fit-content;
 			width:fit-content;
 			left:35%;
-			top:125px;
+			top:70px;
 		}
 		#ContactInfoLinkedIn a{
 			color:white;
-			font-size:35px;
+			font-size:20px;
 			text-align:center;
 		}
 		#Resume{
@@ -619,11 +619,11 @@
 			height:fit-content;
 			width:fit-content;
 			left:35%;
-			top:150px;
+			top:95px;
 		}
 		#Resume a{
 			color:white;
-			font-size:35px;
+			font-size:22px;
 			text-align:center;
 		}
 	/* Styles Used in Contact Page  ----End of Section----*/
