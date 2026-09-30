@@ -582,11 +582,11 @@
 			position:relative;
 			height:fit-content;
 			width:fit-content;
-			left:5%;
+			left:7%;
 			top:15px;
 		}	
 		#BodyText1 b{
-			font-size:45px;
+			font-size:22px;
 			color:white;
 			text-align: center;
 		}
