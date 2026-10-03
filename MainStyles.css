@@ -643,7 +643,7 @@
 	  	#header {
 			position:relative;
 			top:15px;
-			left:-10px;
+			left:15px;
 		}
 	    #header #Logo{
 		  postion:relative;
@@ -677,7 +677,7 @@
 			width:1600px;
 			height:500px;
 			top:30px;
-			left:50px;
+			left:70px;
 			margin:0;
 			padding:0;
 		}
@@ -762,16 +762,16 @@
 
 	 	 /* Styles Used on Home/Landing Page */
 	    #BodyText{
-	      width:90vw;
+	      width:74vw;
 		  height:fit-content;
-	      left:5px;
+	      left:15px;
 		  font-size:20px;
 	    }
 	  #BodyText b{
 		  left:60px;  
 	  } 
 	  #Showcase{
-		 left:0px; 
+		 left:25px; 
 	  }
 	  #Showcase b{
 		font-size:25px;
