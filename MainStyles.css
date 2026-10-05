@@ -630,7 +630,7 @@
 }		
 /* Styles for Small Mobie Devices ----End of Section---- */ 
 /* Styles For Medium Mobile Devices */
-@media only screen and (min-width: 325px) and (max-width: 375px){
+@media only screen and (min-width: 340px) and (max-width:375px){
 /* Universal Styles For Whole Site  Headers and Footers */ 
 	    #container{
 	      width:100vw;
