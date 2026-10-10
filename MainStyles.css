@@ -643,7 +643,7 @@
 	  	#header {
 			position:relative;
 			top:15px;
-			left:15px;
+			left:40px;
 		}
 	    #header #Logo{
 		  postion:relative;
@@ -677,7 +677,7 @@
 			width:1600px;
 			height:500px;
 			top:30px;
-			left:70px;
+			left:100px;
 			margin:0;
 			padding:0;
 		}
@@ -764,14 +764,14 @@
 	    #BodyText{
 	      width:74vw;
 		  height:fit-content;
-	      left:15px;
+	      left:20px;
 		  font-size:20px;
 	    }
 	  #BodyText b{
 		  left:60px;  
 	  } 
 	  #Showcase{
-		 left:25px; 
+		 left:60px; 
 	  }
 	  #Showcase b{
 		font-size:25px;
